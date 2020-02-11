@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Enoch Sontonga</title>
+		<!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
+		<!--<link rel="icon" href="images/star_rating.png" type="image/gif" sizes="16x16">-->
+		<link rel="stylesheet" href="index.css">
+		<!--<script src="new.js"></script>-->
+		<style>
+		.outer p
+		{
+			width: 100%;
+			padding: 50px 0;
+			text-align: left;
+			background-color: none;
+			padding-left: 15px;
+			margin: auto;
+			color: White;
+			border-radius: 0.9em;
+			border-color: transparent;
+		}
+		.outer p:active
+		{
+			border: 1px solid lightblue;
+		}
+		
+		.faq
+		{
+		-webkit-box-align: center;
+		align-items: center;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		font-size: 1.125em;
+		color: white;
+		font-family: inherit;
+		font-weight: 800;
+		width: 100%;
+		text-align: left;
+		background-color: transparent;
+		padding: 20px 0px 30px 40px;
+		margin: auto;
+		border-bottom: 1px solid rgb(236, 236, 236);
+		outline: none;
+		border-radius: 0.9em;
+		outline-color: initial;
+		outline-style: none;
+		outline-width: initial;
+		}
+		.outer
+		{
+		margin-bottom: 40px;
+		width: 50%;
+		background-color: none;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 100px 0px;
+		border-radius: 0.9em;
+		padding: 30px 0px;
+		margin: auto;
+		position: absolute;
+		top: 30%;
+		left: 15%;
+		}
+		.inside h3{
+			color: #fff;
+		}
+		.inside h2{
+			color: #fff;
+		}
+	
+	</style>
+	</head>
+	<body>
+		<header>
+			<div class="main">
+				<div class="logo">
+					<img src="logo.png" alt="logo">
+				</div>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="FAQ.html" class="active">FAQ</a></li>
+					<li><a href="About_enoch.html">About Enoch Sontonga</a></li>
+					<li><a href="user_manual.html">Gallery</a></li>
+					<li><a href="login.html" id="logginging">Login</a></li>
+				</ul>
+			</div>
+			<div class="inside">
+				<h2>Frequently Asked Questions</h2><br><br>
+				<h3>New Student</h3>
+			</div>
+			<div class="outer">
+				<button onclick="myFun1()" class="faq">Do I need to reside in Enoch to have an account?</button><br>
+				<p id="myAns1" style="display: none"><em>Yes. </em></p>
+				<br>
+				<button onclick="myFun2()" class="faq">Can you message other students on the App?</button><br>
+				<p id="myAns2" style="display: none"><em>For now you can talk by email only</em></p>
+				<br>
+				<button onclick="myFun3()" class="faq">Will I be able to other people's profiles?</button><br>
+				<p id="myAns3" style="display: none"><em>Yes. Everyone who is regsitered in the system will be visible. You will be able to search for them too.</em></p>
+				<br>
+			</div>
+			
+			<script>
+				function myFun1() 
+				{
+					var x = document.getElementById("myAns1");
+					if (x.style.display === "none") 
+					{
+						x.style.display = "block";
+					} else {
+						x.style.display = "none";
+					}
+				}
+				function myFun2() 
+				{
+					var x = document.getElementById("myAns2");
+					if (x.style.display === "none") 
+					{
+						x.style.display = "block";
+					} else {
+						x.style.display = "none";
+					}
+				}
+				function myFun3() 
+				{
+					var x = document.getElementById("myAns3");
+					if (x.style.display === "none") 
+					{
+						x.style.display = "block";
+					} else {
+						x.style.display = "none";
+					}
+				}
+			</script>
+		<header>
+	</body>
+</html>
